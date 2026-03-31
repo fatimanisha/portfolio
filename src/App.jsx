@@ -87,7 +87,6 @@ const CERTS = [
     color: "#001a57",
     date: "Nov 2021",
     link: "https://coursera.org/verify/BT3XMMDBFSTZ",
-    file: "/certificates/Coursera_certificate.pdf",
   },
   {
     name: "Responsive Web Design",
@@ -96,7 +95,6 @@ const CERTS = [
     color: "#8b1a1a",
     date: "Dec 2021",
     link: "https://coursera.org/verify/VDLDZXVZBAYJ",
-    file: "/certificates/Coursera_responsive_web_design.pdf",
   },
   {
     name: "Crash Course on Python",
@@ -105,7 +103,6 @@ const CERTS = [
     color: "#1a73e8",
     date: "Feb 2022",
     link: "https://coursera.org/verify/XAURN4UZB7F3",
-    file: "/certificates/coursera_python.pdf",
   },
 ];
 
