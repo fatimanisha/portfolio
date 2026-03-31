@@ -115,7 +115,7 @@ const PROJECTS = [
     tags: ["React", "React Router", "Custom Hooks", "Responsive UI"],
     category: "frontend",
     desc: "Personal portfolio rebuilt in React with reusable UI components, responsive layouts, dynamic routing with React Router, and custom hooks.",
-    github: "https://github.com/fatimanisha",
+    github: "https://github.com/fatimanisha/portfolio",
     color: "#7c3aed",
   },
   {
