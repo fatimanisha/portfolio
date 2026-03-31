@@ -626,7 +626,7 @@ export default function App() {
         <Contact />
       </main>
       <footer className="site-footer">
-        <p>© 2025 Fatima Nisha · Built with React</p>
+        <p>© 2026 Fatima Nisha · Built with React</p>
       </footer>
     </>
   );
