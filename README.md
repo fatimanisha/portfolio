@@ -1,53 +1,49 @@
 # Fatima Nisha — Portfolio
 
-A React + Vite personal portfolio with dark editorial design.
+Welcome to my digital portfolio. A clean, modern showcase of my work, projects, and skills built with React and Vite.
 
-## Project Structure
+## About
 
-```
-portfolio/
-├── index.html
-├── package.json
-├── vite.config.js
-└── src/
-    ├── main.jsx
-    └── App.jsx
-```
+This portfolio features:
+- **Clean Design** — Minimalist and professional aesthetic
+- **Responsive Layout** — Works seamlessly across all devices
+- **Fast Performance** — Built with Vite for optimal load times
+- **Project Showcase** — Highlighting my best work and accomplishments
 
-## Run Locally
+## Tech Stack
+
+- **React** — UI components
+- **Vite** — Fast build tool and dev server
+- **JavaScript/JSX** — Core language
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open http://localhost:5173 in your browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-## Deploy to Vercel (Free Shareable Link)
-
-### Step 1 — Push to GitHub
-1. Go to github.com and create a new repository called `portfolio`
-2. In your terminal (inside this project folder):
+## Building for Production
 
 ```bash
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin https://github.com/fatimanisha/portfolio.git
-git push -u origin main
+npm run build
 ```
 
-### Step 2 — Deploy on Vercel
-1. Go to https://vercel.com and sign up with your GitHub account
-2. Click **"Add New Project"**
-3. Select your `portfolio` repository
-4. Leave all settings as default — Vercel auto-detects Vite
-5. Click **Deploy**
+## Live Demo
 
-Your live link will be: `https://portfolio-fatimanisha.vercel.app`
+Visit: **[fatimanisha.vercel.app](https://portfolio-fatimanisha.vercel.app)**
 
-You can customize the URL in Vercel's project settings.
+## License
+
+This project is open source and available under the MIT License.
 
 ## Build for Production
 
