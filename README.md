@@ -39,7 +39,7 @@ npm run build
 
 ## Live Demo
 
-Visit: **[fatimanisha.vercel.app](https://portfolio-neon-beta-26.vercel.app/)**
+Visit: **[portfolio-neon-beta-26.vercel.app](https://portfolio-neon-beta-26.vercel.app/)**
 
 ## License
 
