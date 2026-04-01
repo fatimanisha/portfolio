@@ -738,6 +738,7 @@ button { cursor: pointer; font-family: var(--font-body); border: none; backgroun
 .hero-content { position: relative; text-align: center; max-width: 760px; padding: 0 2rem; }
 .hero-greeting { font-size: 1rem; color: var(--accent2); font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.5rem; }
 .hero-name {
+  font-family: var(--font-head); font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 800; letter-spacing: -0.04em; line-height: 1;
   background: linear-gradient(135deg, #fff 40%, var(--accent) 100%);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
