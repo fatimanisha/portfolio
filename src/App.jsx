@@ -16,6 +16,18 @@ const SKILLS = [
 
 const EXPERIENCE = [
   {
+    role: "AI Model Trainer",
+    company: "Outlier",
+    type: "Freelance",
+    period: "Oct 2024 – Present",
+    location: "Remote",
+    bullets: [
+      "Evaluate and improve AI-generated code and technical responses across Python, JavaScript, and cloud infrastructure domains.",
+      "Apply software engineering and DevOps expertise to assess correctness, efficiency, and security of model outputs at scale.",
+      "Provide structured written feedback used to refine LLM behavior on cloud automation and full-stack development tasks.",
+    ],
+  },
+  {
     role: "Automation Analyst",
     company: "Royal Bank of Canada",
     period: "Jan 2024 – Apr 2024",
@@ -413,7 +425,7 @@ function Resume() {
                 <div className="tl-content">
                   <span className="tl-period">{e.period}</span>
                   <h4 className="tl-role">{e.role}</h4>
-                  <p className="tl-company">{e.company} · {e.location}</p>
+                  <p className="tl-company">{e.company}{e.type ? <span className="tl-badge">{e.type}</span> : null} · {e.location}</p>
                   <ul className="tl-bullets">
                     {e.bullets.map((b, j) => <li key={j}>{b}</li>)}
                   </ul>
@@ -634,7 +646,7 @@ export default function App() {
 
 // ── Styles ────────────────────────────────────────────────────────────────────
 const CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -647,8 +659,8 @@ const CSS = `
   --muted: #7c7c9a;
   --accent: #6366f1;
   --accent2: #38bdf8;
-  --font-head: 'Syne', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
+  --font-head: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
 }
 
 html { scroll-behavior: smooth; }
@@ -832,6 +844,13 @@ button { cursor: pointer; font-family: var(--font-body); border: none; backgroun
 .tl-period { font-size: 0.78rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.1em; }
 .tl-role { font-family: var(--font-head); font-size: 1.05rem; font-weight: 700; margin: 0.35rem 0 0.2rem; }
 .tl-company { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.8rem; }
+.tl-badge {
+  display: inline-block; margin-left: 0.5rem;
+  padding: 0.1rem 0.55rem; border-radius: 99px;
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+  background: rgba(99,102,241,0.15); color: var(--accent2); border: 1px solid rgba(56,189,248,0.25);
+  vertical-align: middle;
+}
 .tl-note { font-size: 0.82rem; color: var(--muted); margin-top: 0.4rem; }
 .tl-bullets { padding-left: 1rem; display: flex; flex-direction: column; gap: 0.4rem; }
 .tl-bullets li { font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
